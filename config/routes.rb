@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   end
 
   root to: 'pages#home'
-
+  get 'angular-items', to: 'portfolios#angular'
 end
