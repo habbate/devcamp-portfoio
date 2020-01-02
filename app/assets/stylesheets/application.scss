@@ -1,5 +1,4 @@
 @import "bootstrap";
-
 /*
  * Globals
  */
@@ -30,6 +29,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  text-align: center;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 56em;
 }
 
 
