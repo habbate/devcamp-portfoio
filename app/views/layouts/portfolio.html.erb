@@ -19,11 +19,10 @@
 
     <main role="main">
 
-      <%= render 'shared/portfolio_masshead' %>
+      <%= render 'shared/portfolio_masshead' unless logged_in?(:site_admin) %>
 
       <%= yield %>
 
-      <!-- footer -->
       <%= render 'shared/portfolio_footer' %>
 
     </main>
